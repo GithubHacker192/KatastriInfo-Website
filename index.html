@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Katastripäringud</title>
+</head>
+<body>
+    <div class="input-wrapper">
+        <input type="text" id="code" placeholder="Sisesta kood siia">
+        <p class="error">Sisestatud on ebakorrektne kood</p>
+        <input type="button" class="scrape-button" onclick="scrape(code.value)" value="Scrape">
+    </div>
+    <script src="assets/js/request.js"></script>
+</body>
+</html>
